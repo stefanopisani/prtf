@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "title": "Rides",
+      "description": "y",
+      "technologies": "z",
+      "imageUrl": ".com",
+      "link" : ".ww",
+      "githubUrl" : "something"
+    },
+    {
+      "title": "Feed",
+      "description": "y",
+      "technologies": "z",
+      "imageUrl": ".com",
+      "link" : ".ww",
+      "githubUrl" : "something"
+    },
+    {
+      "title": "Delivery Game",
+      "description": "y",
+      "technologies": "z",
+      "imageUrl": ".com",
+      "link" : ".ww",
+      "githubUrl" : "something"
+    }
+  ]
+}

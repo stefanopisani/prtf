@@ -1,0 +1,74 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.about-me {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 75px 220px 0 0;
+}
+
+.move{
+  animation: fadeInUp 1.5s ease-in;
+}
+
+.about-me h1 {
+  color: tomato;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.about-me p {
+  color: #999;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.about-left {
+  height: 430px;
+  width: 430px;
+  background-color: tomato;
+  border-radius: 50%;
+  margin-right: 75px;
+  overflow: hidden;
+}
+
+.about-left img {
+  width: 400px;
+  margin-top: -50px;
+  margin-left: 30px;
+}
+
+.about-right {
+  width: 500px;
+  margin-top: -25px;
+}
+
+.arrow-down3 {
+  height: 50px;
+  width: 70px;
+  animation: blink 1s infinite;
+  margin-right: 220px;
+  margin-bottom: -50px;
+}
+
+.arrow-down3:hover{
+  cursor: pointer;
+}
+
+
+@keyframes fadeInUp {
+  from {
+
+    transform: translateX(-100vh)
+  } to {
+
+    transform: translateX(0)
+  }
+}

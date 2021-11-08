@@ -1,0 +1,71 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 70px) !important;
+  color: white;
+  background-color: #003434;
+  text-align: center;
+  transition: all 1s ease-in;
+}
+
+.activebg {
+  background-color: white;
+  color: #999;
+  height: 100vh;
+  transform: translateX(-120px); 
+}
+
+.intro-content {
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: -150px;
+}
+
+.intro-content:hover {
+  cursor: pointer;
+}
+
+.changing {
+  color: tomato;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+
+
+.ityped-cursor {
+  animation: blink 1s infinite;
+  color: tomato;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.role {
+  margin-top: 10px;
+  color: tomato;
+}
+
+.arr{
+    display: flex;
+    justify-content: center;
+    margin: -70px 220px 70px 0;
+}
+
+.arrow-down2{
+    height: 50px;
+    width: 70px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
