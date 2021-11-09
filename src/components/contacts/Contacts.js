@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import {Link  as Nav }from "react-scroll";
 import { init } from "ityped";
 import "./Contacts.css";
 
@@ -73,6 +74,10 @@ function Contacts(props) {
           </a>
         </div>
       </div>
+      <Nav className="logo" to="nav-start" smooth={true} duration={1000}>
+        <img src="/down.png" alt="logo" className="scroll-up-logo"/>
+        <p style={{fontSize: 14, marginLeft: 40, marginTop: -10}}> top </p>
+      </Nav>
     </div>
   );
 }

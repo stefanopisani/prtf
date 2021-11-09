@@ -1,5 +1,30 @@
 @import "../../global.scss";
 
+@media (max-width: 500px) {
+  .menu {
+    width: 100% !important;
+    height: 200px !important;
+    background-color: $thirdColor !important;
+    position: fixed !important;
+    top: -350px !important;
+    z-index: 2 !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transition: all 1s ease !important;
+    padding-top: 50px !important;
+  
+    &.active {
+      top: 0 !important;
+    }
+  }
+
+  ul {
+    font-size: 20px !important;
+  }
+}
+
 .menu {
   width: 220px;
   height: 100vh;

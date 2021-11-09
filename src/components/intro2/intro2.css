@@ -1,3 +1,18 @@
+@media (max-width: 500px) {
+  .intro-content {
+    font-size: 35px !important;
+  }
+  .changing {
+    font-size: 24px !important;
+  }
+  .ityped-cursor {
+    font-size: 35px !important;
+  }
+}
+
+@media (min-width: 769px) {
+}
+
 .intro {
   display: flex;
   flex-direction: column;
@@ -14,7 +29,7 @@
   background-color: white;
   color: #999;
   height: 100vh;
-  transform: translateX(-120px); 
+  transform: translateX(-120px);
 }
 
 .intro-content {
@@ -33,8 +48,6 @@
   font-size: 40px;
 }
 
-
-
 .ityped-cursor {
   animation: blink 1s infinite;
   color: tomato;
@@ -47,16 +60,16 @@
   color: tomato;
 }
 
-.arr{
-    display: flex;
-    justify-content: center;
-    margin: -70px 220px 70px 0;
+.arr {
+  display: flex;
+  justify-content: center;
+  margin: -70px 220px 70px 0;
 }
 
-.arrow-down2{
-    height: 50px;
-    width: 70px;
-    animation: blink 1s infinite;
+.arrow-down2 {
+  height: 50px;
+  width: 70px;
+  animation: blink 1s infinite;
 }
 
 @keyframes blink {
@@ -67,5 +80,3 @@
     opacity: 0;
   }
 }
-
-
