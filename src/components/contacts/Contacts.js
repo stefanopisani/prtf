@@ -30,7 +30,7 @@ function Contacts(props) {
       </div>
 
       <div className="center">
-        <h1 className="contact-cta" style={{textAlign:"center", color:"#646464"}}>Send me an email, download my cv <br /> or checkout my profiles </h1>
+        <h1 className="contact-cta" style={{textAlign:"center", color:"#646464"}}>Send me an email, download my cv <br className="contact-br"/> or checkout my profiles </h1>
       </div>
 
       <div className="container">
