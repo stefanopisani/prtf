@@ -26,6 +26,11 @@
     margin: 20px 0 20px !important;
     padding-top: 10px !important;
   }
+
+  .contacts{
+    padding-top: 50px !important;
+    height: 60vh !important;
+  }
 }
 
 .contact-link {

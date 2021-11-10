@@ -9,7 +9,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
         <Link className="logo" to="nav-start" smooth={true} duration={1000}>StefanoP.</Link>
         </div>
         <div className="hbg-right">
-          <div className="hamburger" onClick={() => window.location.reload()}>
+          <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
             <span className="line1"></span>
             <span className="line2"></span>
             <span className="line3"></span>

@@ -23,7 +23,7 @@ function Contacts(props) {
     // <div id="contacts" style={{height:"100vh", backgroundColor: "turquoise"}}>
 
     <div className="contacts" id="contact" style={{ height: "90vh" }}>
-      <div className="center">
+      <div className="center center-contact">
         {/* <img className="big-img" src="assets/languages.png" alt="let's talk!" /> */}
         {/* <h1 className="contact-title">...</h1> */}
         <span className="changing" ref={contactRef}></span>
