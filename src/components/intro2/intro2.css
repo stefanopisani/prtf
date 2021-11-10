@@ -1,4 +1,8 @@
 @media (max-width: 500px) {
+  .intro{
+    width: 100% !important;
+    margin-top: 120px !important;
+  }
   .intro-content {
     font-size: 35px !important;
   }
@@ -7,6 +11,12 @@
   }
   .ityped-cursor {
     font-size: 35px !important;
+  }
+  .activebg {
+    background-color: white;
+    color: #999;
+    height: 100vh;
+    transform: translateX(0px) !important;
   }
 }
 

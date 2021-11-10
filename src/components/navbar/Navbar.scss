@@ -1,5 +1,12 @@
 @import "../../global.scss";
 
+@media (max-width: 500px) {
+  // .navbar {
+  //   width: 375px !important;
+  // }
+}
+
+
 .navbar {
   width: 100%;
   height: 70px;

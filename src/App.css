@@ -1,8 +1,13 @@
 @media (max-width: 500px) {
+
+
+  .arrows {
+    display: none !important;
+  }
+  
   .App {
     width: 100% !important;
   }
-  
 }
 
 .App {

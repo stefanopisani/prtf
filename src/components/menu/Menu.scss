@@ -7,6 +7,8 @@
     background-color: $thirdColor !important;
     position: fixed !important;
     top: -350px !important;
+    right: 0 !important;
+    left: 0 !important;
     z-index: 2 !important;
     display: flex !important;
     flex-direction: row !important;
@@ -22,6 +24,13 @@
 
   ul {
     font-size: 20px !important;
+    width: 100%;
+    text-align: center;
+  }
+
+  .link-menu:hover {
+    font-size: 22px !important;
+    // margin-bottom: 19px;
   }
 }
 

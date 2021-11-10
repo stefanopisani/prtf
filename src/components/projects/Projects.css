@@ -1,3 +1,38 @@
+@media (max-width: 500px) {
+  *{
+    margin-right: 0 !important;
+  }
+
+  #projects{
+    margin-top: 150px ! important;
+    margin-bottom: 150px !important;
+  }
+
+  .main-projects{
+    flex-direction: column !important;
+  }
+
+  .card-project{
+    width: 200px !important;
+    padding: 20px !important;
+    height: 240px !important;
+    filter:  none !important;
+    margin-bottom: 50px !important;
+  }
+
+  .card-title{
+    margin: 20px 0 5px !important;
+    font-size: 20px !important;
+  }
+
+  .card-text{
+    padding: 5px !important;
+    font-size: 12px !important;
+    color: #3d3d3d !important;
+  }
+}
+
+
 #projects {
   height: 100vh;
   display: flex;

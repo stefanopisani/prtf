@@ -1,3 +1,33 @@
+@media (max-width: 500px) {
+  .contact-link {
+    margin: 15px 10px !important;
+    max-width: 30px !important;
+    max-height: 30px !important;
+  }
+  
+  .contact-cta{
+    font-size: 20px;
+    padding: 30px;
+  }
+  .contact-title{
+    margin-top: 20px !important;
+    color: tomato;
+    font-size: 30px;
+  }
+
+  br{
+    display: none;
+  }
+
+  .container {
+    margin-top: 50px !important;
+  }
+  .center {
+    margin: 20px 0 20px !important;
+    padding-top: 10px !important;
+  }
+}
+
 .contact-link {
   margin: 30px 20px;
   max-width: 50px;

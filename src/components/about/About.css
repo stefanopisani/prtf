@@ -1,3 +1,44 @@
+@media (max-width: 500px) {
+  *{
+    margin-right: 0 !important;
+  }
+
+  .about-me {
+    margin-top: 0 !important;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-me h1 {
+    font-size: 20px !important;
+  }
+
+  .about-me p {
+    font-size: 15px !important;
+  }
+
+  .about-left {
+    height: 215px !important;
+    width: 215px !important;
+  }
+
+  .about-left img {
+    width: 200px !important;
+    margin-top: -30px !important;
+    margin-left: 20px !important;
+  }
+
+  .about-right {
+    margin-top: 50px !important;
+    width: 250px !important;
+    margin-top: -25px;
+  }
+
+
+}
+
 .about {
   display: flex;
   flex-direction: column;
