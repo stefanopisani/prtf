@@ -13,7 +13,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
         <li onClick={() => setMenuOpen(false)}>
         <Link className="link-menu" to="projects" smooth={true} duration={1000}>Projects</Link>
         </li>
-        <li onClick={() => setMenuOpen(false)}>
+        <li className="last-link" onClick={() => setMenuOpen(false)}>
         <Link className="link-menu" to="contacts" smooth={true} duration={1000}>Contacts</Link>
         </li>
         {/* <li onClick={() => setMenuOpen(false)}>

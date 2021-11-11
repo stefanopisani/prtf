@@ -4,7 +4,7 @@
   }
 
   .about-me {
-    margin-top: 0 !important;
+    margin-top: -30 !important;
     display: flex;
     flex-direction: column !important;
     justify-content: center;

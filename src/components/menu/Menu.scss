@@ -3,7 +3,7 @@
 @media (max-width: 500px) {
   .menu {
     width: 100% !important;
-    height: 200px !important;
+    height: 150px !important;
     background-color: $thirdColor !important;
     position: fixed !important;
     top: -350px !important;
@@ -31,6 +31,11 @@
   .link-menu:hover {
     font-size: 22px !important;
     // margin-bottom: 19px;
+  }
+
+
+  .last-link{
+    margin-bottom: 0 !important;
   }
 }
 
