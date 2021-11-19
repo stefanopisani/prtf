@@ -3,12 +3,13 @@ import React, { useState } from "react";
 
 import Navbar from "./components/navbar/Navbar";
 import Menu from "./components/menu/Menu";
-import Intro from "./components/intro/Intro";
 import About from "./components/about/About";
-import "./App.css";
 import Projects from "./components/projects/Projects";
 import Intro2 from "./components/intro2/Intro2.js";
 import Contacts from "./components/contacts/Contacts";
+import Card from "./components/Animations/Anim";
+
+import "./App.css";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -33,22 +34,11 @@ function App() {
               />
             )}
           />
-          <Route
-            exact
-            path="/2"
-            render={(props) => (
-              <Intro
-                {...props}
-                menuOpen={menuOpen}
-                setMenuOpen={setMenuOpen}
-                setFade={setFade}
-              />
-            )}
-          />
         </Switch>
         {menuOpen && <About menuOpen={menuOpen} fade={fade}/> }
         {menuOpen && <Projects /> }
         {menuOpen &&  <Contacts/> }
+        {/* {menuOpen &&  <Card/> } */}
        
           
       </div>
